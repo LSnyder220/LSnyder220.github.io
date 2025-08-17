@@ -6,253 +6,302 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Lucas Snyder Portfolio</title>
-        <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
-        <style>
-  body {
-    background-color: #ABE2B6;
-  }
-</style>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-lg-5">
-                <a class="navbar-brand" href="#!">Lucas Snyder Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://lsnyder220.github.io/">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://lsnyder220.github.io/About/">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="https://lsnyder220.github.io/Contact/">Contact</a></li>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Return to Top</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <!--<li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html" target="_blank" rel="noopener no referrer">Home</a></li>-->
+                        <!--<li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>-->
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="https://docs.google.com/document/d/1Lx4aAg0PskgAky9-LpxY2T_T_VPLM1cNBvxJnzyzUbs/edit?tab=t.0" target="_blank" rel="noopener no referrer">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="https://www.linkedin.com/in/lsnyder220" target="_blank" rel="noopener no referrer">LinkedIn</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Header-->
-        <header class="py-5">
-            <div class="container px-lg-5">
-                <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
-                    <div class="m-4 m-lg-5">
-                        <h1 class="display-5 fw-bold">Welcome to Lucas Snyder's Portfolio</h1>
-                        <p class="fs-4">Each card links to a project. Some cards have a 2nd link that will take you to resources for that project.</p>
-                        <a class="btn btn-primary btn-lg" href="https://docs.google.com/document/d/1Lx4aAg0PskgAky9-LpxY2T_T_VPLM1cNBvxJnzyzUbs/edit?usp=sharing" target="_blank" rel="noopener">Resume</a>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/linkedinBanner.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1>Lucas Snyder</h1>
+                            <h2>Explore my Online Portfolio!</h2>
+                            <!--<span class="subheading">My first project to display is this Github hosted website.</span>-->
+                        </div>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Page Content-->
-        <section class="pt-4">
-            <div class="container px-lg-5">
-                <!-- Page Features-->
-                <div class="row gx-lg-5">
+        <!-- Main Content-->
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                    
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="https://drive.google.com/file/d/1vFUZgojrBoaIuva8b6Xb2MGQhMvVAd3T/view?usp=sharing" target="_blank" rel="noopener no referrer">
+                            <h2 class="post-title">Streetlights and Index Crime</h2>
+                            <h3 class="post-subtitle">Report on the spatial relationship between index crime events and streetlights. 
+                                I employ correlation plots, spatial regression modeling, basic distance analysis, and a Poisson regession model to detail this relationship.
+                            </h3>
+                        </a>
+                        <p class="post-meta">Skills/ Tools: Spatial Statistical Models, Analysis Design, Storytelling, ArcGIS, R</p>
+                        <p class="post-meta">
+                            Also on YouTube -
+                            <a href="https://www.youtube.com/watch?v=kfPdz1ldLn0" target="_blank" rel="noopener no referrer">https://www.youtube.com/watch?v=kfPdz1ldLn0</a>
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="https://lsnyder220.github.io/CrashMap/" target="_blank" rel="noopener no referrer">
+                            <h2 class="post-title">Crash Map</h2>
+                            <h3 class="post-subtitle">A display of cartographic and visual design ability with a map detailing the State American's crash their cars in the most.</h3>
+                        </a> 
+                        <p class="post-meta">Skills/ Tools: Cartography, Visual Design, QGIS</p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="https://github.com/tug37130/green-equity-calculator" target="_blank" rel="noopener no referrer">
+                            <h2 class="post-title">Green Equity Index Calculator</h2>
+                            <h3 class="post-subtitle">An application that takes a combination of metrics to create a Green Equity Index Score for census tracts in a county. </h3>
+                        </a> 
+                        <p class="post-meta">Skills/ Tools: Application Development, Versioning, Python, GitHub</p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <a href="https://www.youtube.com/watch?v=l_FHmEydLvE" target="_blank" rel="noopener">
+                            <h2 class="post-title">Spatial Regression Model Video</h2>
+                            <h3 class="post-subtitle">Walkthrough of building a Spatial Regression Model on Gun Violence in Philadelphia</h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: Statistics, R, Teaching, Communication
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
 
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://drive.google.com/file/d/1vFUZgojrBoaIuva8b6Xb2MGQhMvVAd3T/view?usp=sharing" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="https://docs.google.com/document/d/1VcJH5lKFxIDV7dYOXtY62kOVF3zEEQJ9yjzkxidiFPU/edit?usp=sharing" target="_blank" rel="noopener no referrer">
+                            <h2 class="post-title">Philadelphia Bike Network PostGIS Database</h2>
+                            <h3 class="post-subtitle">The redesigning and transformation of an unorganized bikelane dataset into a normalized PostGIS database.
+                            </h3>
+                        </a>
+                        <p class="post-meta">Skills/ Tools: Database Normalization, SQL, ETL, PostGIS</p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                        <a href="https://docs.google.com/document/d/1YjPjyLnBH572OQs77ODQ2VJj18BR_xX9zBWoOuhbQK4/edit?usp=sharing" target="_blank" rel="noopener">
+                            <h2 class="post-title">3D Data in PostGIS Tutorial</h2>
+                            <h3 class="post-subtitle">A workshop taught to a class of ~10 students. Guide to creating/working with datasets and using functions for 3 Dimensional data. </h3>
+                        </a>
+                        <p class="post-meta">Skills/ Tools: Teaching, Communication, QGIS, SQL, PostGIS, 3D Data</p>
+                    </div>                    
+                    <!-- Divider-->
+                    <hr class="my-4" />
+
+
+                                                <!--ESRI ARCGIS SPECIFIC-->
+
+                    <br><br><br>
+                    <div class="post-preview">
+                        <h1 class="post-title">Esri ArcGIS Specific</h1>
+                        </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <a href="https://docs.google.com/document/d/1GMRFCMA070wM3YVSAR-SWWNwEuyyZWoF/edit?usp=sharing&ouid=104920461768748090719&rtpof=true&sd=true" target="_blank" rel="noopener">
+                            <h2 class="post-title">Neighborhood Livability Index</h2>
+                            <h3 class="post-subtitle">This report features the construction of a Neighborhood Livability Index using location analysis techniques.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: ArcGIS, Location Allocation, Weighting
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <a href="https://docs.google.com/document/d/1p66FpDfPC44I3sKCAU-Bs8TDUc9-R1Jv/edit?usp=sharing&ouid=104920461768748090719&rtpof=true&sd=true" target="_blank" rel="noopener">
+                            <h2 class="post-title">Identifying a New Icecream Shop Location</h2>
+                            <h3 class="post-subtitle">New icecream shop locations are recommended using Esri Business Analyst's market demographic groups.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: ArcGIS, Esri Business Analyst, Huff Model
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <a href="https://docs.google.com/document/d/1CGqUXWXozgR7AscZw2ZH27na0EgzO1MI/edit?usp=sharing&ouid=104920461768748090719&rtpof=true&sd=true" target="_blank" rel="noopener">
+                            <h2 class="post-title">Connecting High Mountain Wilderness Preservation Regions</h2>
+                            <h3 class="post-subtitle">Identifying an Optimal Path or Least Cost Path by creating a Risk Terrain</h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: ArcGIS, Dijkstra's algorithm
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <a href="https://docs.google.com/document/d/1QUzqVTIaieP8qgFUiOu2YH6CGHk5JJwH/edit?usp=sharing&ouid=104920461768748090719&rtpof=true&sd=true" target="_blank" rel="noopener">
+                            <h2 class="post-title">Relocating Fire Stations</h2>
+                            <h3 class="post-subtitle"> Revising the spatial configuration of fire station locations to increase population served. </h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: ArcGIS, Location Analysis
+                        </p>
+                    </div>
+
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <a href="https://storymaps.arcgis.com/stories/a55a7ec1b7f447159fe83bdbd47305db" target="_blank" rel="noopener">
+                            <h2 class="post-title">Gun Violence and Vacancy Story Map</h2>
+                            <h3 class="post-subtitle">This study aims to explore a statistically significant spatial relationship between gun violence and vacant property in Philadelphia, PA.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: ArcGIS, Storymaps, Spatial Statistics
+                        </p>
+                    </div>
+                                        <!-- Divider-->
+                    <hr class="my-4" />
+
+                                            <!--WEBMAPPING-->
+                
+
+                    <br><br><br>
+                    <div class="post-preview">
+                        <h1 class="post-title">Webmapping</h1>
+                        </div>    
+                    <!-- Post preview
+                    <div class="post-preview">
+                            <a href="https://lsnyder220.github.io/ChoroplethMap/" target="_blank" rel="noopener">
+                            <h2 class="post-title">Choropleth Map, webmapping exercise</h2>
+                            <h3 class="post-subtitle">project description goes here. think about what buzzword skills you can use</h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: Webmapping, Cartography
+                        </p>
+                    </div>-->
+                
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <a href="https://lsnyder220.github.io/ProportionalSymbolMap/" target="_blank" rel="noopener">
+                            <h2 class="post-title">Proportional Symbol Map</h2>
+                            <h3 class="post-subtitle">A web map showing Corona cases by countries. A javascript exercise.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: Webmapping, JavaScript
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <a href="https://lsnyder220.github.io/ChartsJS/" target="_blank" rel="noopener">
+                            <h2 class="post-title">Character Statistic Chart</h2>
+                            <h3 class="post-subtitle">A web based chart. </h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: Webmapping, ChartsJS, JavaScript
+                        </p>
+                    </div> 
+                    <!-- Divider-->
+                    <hr class="my-4" />
+                    <!-- Post preview-->
+                    <div class="post-preview">
+                            <a href="https://lsnyder220.github.io/mapbox/" target="_blank" rel="noopener">
+                            <h2 class="post-title">Choropleth Map using Mapbox</h2>
+                            <h3 class="post-subtitle">
+                                 A population density map made using Mapbox. A javascript exercise.</h3>
+                        </a>
+                        <p class="post-meta">
+                            Skills/ Tools: Webmapping, Mapbox, JavaScript
+                        </p>
+                    </div>
+                    <!-- Divider-->
+                    <hr class="my-4" />
+
+
+<br><br><br>
+                    <!-- Pager-->
+                    <!--  <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+                </div>  -->
+            </div>
+        </div>
+
+        <!-- Footer-->
+        
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <!--
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
                                 </a>
-                                <a href="https://www.youtube.com/watch?v=kfPdz1ldLn0" target="_blank" rel="noopener">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-youtube"></i></div>
-                                    </a>
-                                <h2 class="fs-4 fw-bold">Streetlights and Index Crime</h2>
-                                <p class="mb-0">A case study of Philadelphia, PA<br> </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://github.com/tug37130/green-equity-calculator" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-code"></i></div>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
                                 </a>
-                                <h2 class="fs-4 fw-bold">Green Equity Index Calculator</h2>
-                                <p class="mb-0">An application to calcuate a Green Equity Score on a custom index.<br> </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://lsnyder220.github.io/CrashMap/" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
                                 </a>
-                                <h2 class="fs-4 fw-bold">Crash Map</h2>
-                                <p class="mb-0">A demonstration of Cartographic Design abilities.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://docs.google.com/document/d/1VcJH5lKFxIDV7dYOXtY62kOVF3zEEQJ9yjzkxidiFPU/edit?usp=sharing" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                </a>
-                                <h2 class="fs-4 fw-bold">Database Normalization</h2>
-                                <p class="mb-0">Philadelphia Bike Network database rebuild into normal form.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://docs.google.com/document/d/1YjPjyLnBH572OQs77ODQ2VJj18BR_xX9zBWoOuhbQK4/edit?usp=sharing" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                </a>
-                                <h2 class="fs-4 fw-bold">3D Data in PostGIS Tutorial</h2>
-                                <p class="mb-0">Group Project detailing the ins and outs of 3D data in a PostGIS database.</p>
-                            </div>
-                        </div>
-                    </div>
-                   <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://docs.google.com/document/d/1GMRFCMA070wM3YVSAR-SWWNwEuyyZWoF/edit?usp=sharing&ouid=104920461768748090719&rtpof=true&sd=true" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                </a>
-                                <h2 class="fs-4 fw-bold">Location Analysis Project</h2>
-                                <p class="mb-0">Building a Neighborhood Livability Index to gauge where is best to live in Philadelphia, PA.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://docs.google.com/document/d/1CGqUXWXozgR7AscZw2ZH27na0EgzO1MI/edit?usp=sharing&ouid=104920461768748090719&rtpof=true&sd=true" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                </a>
-                                <h2 class="fs-4 fw-bold">Least Cost Path, Risk Terrain</h2>
-                                <p class="mb-0">Identifying an Optimal Path to Connect High Mountain Wilderness Preservation Regions.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://docs.google.com/document/d/1QUzqVTIaieP8qgFUiOu2YH6CGHk5JJwH/edit?usp=sharing&ouid=104920461768748090719&rtpof=true&sd=true" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                </a>
-                                <h2 class="fs-4 fw-bold">Location Allocation of Fire Stations</h2>
-                                <p class="mb-0">Reconfiguration of the location of Fire Stations to increase the servicable population.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://docs.google.com/document/d/1p66FpDfPC44I3sKCAU-Bs8TDUc9-R1Jv/edit?usp=sharing&ouid=104920461768748090719&rtpof=true&sd=true" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                </a>
-                                <h2 class="fs-4 fw-bold">New Icecream Shop Business Analysis</h2>
-                                <p class="mb-0">Proposing new shop locations using encatchment areas and target market groups.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://lsnyder220.github.io/HotCold/" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
-                                </a>
-                                <h2 class="fs-4 fw-bold">Hot and Cold</h2>
-                                <p class="mb-0">Click around the map to find the secret location. A javascript exercise.<br> </p>
-                                <a class="btn btn-primary btn-lg" href="https://github.com/LSnyder220/JetFuel" target="_blank" rel="noopener">Repository</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://storymaps.arcgis.com/stories/a55a7ec1b7f447159fe83bdbd47305db" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
-                                </a>
-                                <h2 class="fs-4 fw-bold">Gun Violence and Vacancy</h2>
-                                <p class="mb-0">A statistical analysis project presented through StoryMaps.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://lsnyder220.github.io/ChoroplethMap/" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
-                                </a>
-                                <h2 class="fs-4 fw-bold">Choropleth Map</h2>
-                                <p class="mb-0">A webmap displaying Corona cases across counties. A javascript exercise.</p>
-                                <a class="btn btn-primary btn-lg" href="https://github.com/LSnyder220/ChoroplethMap" target="_blank" rel="noopener">Repository</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://github.com/LSnyder220/VectorAnalysis" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-code"></i></div>
-                                <a/>
-                                <h2 class="fs-4 fw-bold">Vector Analysis</h2>
-                                <p class="mb-0">Python script working through geoprocessing tools. An exercise in arcpy function.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://lsnyder220.github.io/ProportionalSymbolMap/" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
-                                <a/>
-                                <h2 class="fs-4 fw-bold">Proportional Symbol Map</h2>
-                                <p class="mb-0">A web map showing Corona cases by countries. A javascript exercise.</p>
-                                <a class="btn btn-primary btn-lg" href="https://github.com/LSnyder220/ProportionalSymbolMap" target="_blank" rel="noopener">Repository</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://lsnyder220.github.io/ChartsJS/" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bar-chart-line"></i></div>
-                                <a/>
-                                <h2 class="fs-4 fw-bold">Character Statistic Chart</h2>
-                                <p class="mb-0">Web chart made using chart.js. A javascript exercise.</p>
-                                <a class="btn btn-primary btn-lg" href="https://github.com/LSnyder220/ChartsJS" target="_blank" rel="noopener">Repository</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://lsnyder220.github.io/mapbox/" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
-                                <a/>
-                                <h2 class="fs-4 fw-bold">Choropleth Map using mapbox</h2>
-                                <p class="mb-0">A population density map made using mapbox. A javascript exercise.</p>
-                                <a class="btn btn-primary btn-lg" href="https://github.com/LSnyder220/mapbox target="_blank" rel="noopener"">Repository</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-xxl-4 mb-5">
-                        <div class="card bg-light border-0 h-100">
-                            <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                                <a href="https://www.youtube.com/watch?v=l_FHmEydLvE" target="_blank" rel="noopener">
-                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-youtube"></i></div>
-                                <a/>
-                                <h2 class="fs-4 fw-bold">Spatial Regression Model</h2>
-                                <p class="mb-0">A Video outlining a Spatial Regression Model on Gun Violence in Philadelphia</p>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
+                    -->
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Lucas Snyder 2025</div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Lucas Snyder 2023</p></div>
         </footer>
+    
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
